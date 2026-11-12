@@ -1,13 +1,15 @@
 # PaperVault content skills
 
-These repo-local skills are original workflows for PaperVault's product facts, static site, and publishing process:
+These repo-local skills are project-specific workflows for PaperVault's product facts, static site, and publishing process:
 
 - `.claude/skills/papervault-content-strategy/SKILL.md` plans useful, non-duplicative reader topics.
 - `.claude/skills/papervault-blog-writing/SKILL.md` drafts and formats original articles for this static site.
 - `.claude/skills/papervault-fact-checking/SKILL.md` verifies product and editorial claims against sources.
 - `.claude/skills/papervault-seo-review/SKILL.md` reviews crawlability, metadata, internal links, and sitemap coverage.
 
-The workflows were informed by the open-source [Marketing Skills](https://github.com/coreyhaines31/marketingskills) and [Claude Blog](https://github.com/AgriciDaniel/claude-blog) projects. Their MIT licenses permit reuse with notices; this repository does not include their skill text or code. These project-specific instructions are not affiliated with or endorsed by either project. Search ranking or AI citation outcomes are not guaranteed.
+The blog-writing workflow also adapts research-first structure and editorial checks from LangChain AI's [MIT-licensed blog-post skill](https://github.com/langchain-ai/deepagents/tree/main/examples/content-builder-agent/skills/blog-post). It is tailored to PaperVault's static HTML pages and fact-checking requirements rather than copied with its original tool-specific steps. The license notice is in [`docs/licenses/langchain-deepagents-MIT.txt`](./licenses/langchain-deepagents-MIT.txt).
+
+Other editorial ideas were informed by the open-source [Marketing Skills](https://github.com/coreyhaines31/marketingskills) and [Claude Blog](https://github.com/AgriciDaniel/claude-blog) projects. Their MIT licenses permit reuse with notices; this repository does not include their skill text or code. These project-specific instructions are not affiliated with or endorsed by any of these projects. Search ranking or AI citation outcomes are not guaranteed.
 
 ## Editorial source of truth
 
