@@ -14,7 +14,7 @@ From this directory run `python3 -m http.server 8080 --directory dist`, then ope
 - `dist/privacy.html`: privacy policy from `../docs/privacy-policy.md`
 - `dist/assets/`: original app logo and product screenshots
 
-The availability button currently opens an email to the product contact. Replace it with the verified App Store listing URL when available. Google Fonts is used for typography, with local system fallbacks.
+The App Store download buttons link to the PaperVault listing. Google Fonts is used for typography, with local system fallbacks.
 
 ## Google indexing
 
